@@ -5,8 +5,8 @@ function Nav(){
         <div className="nav">
             <Link to="/" className='About'>Accueil</Link>
                 <a href="#aboutMe-container" className='About'>Présentation</a> 
-                <a href="#mesRealisations" className="About">Mes Réalisations</a>
-                <a href="#contact" className='About'>Me Contacter</a>
+                <a href="#mesRealisations" className="About">Réalisations</a>
+                <a href="#contact" className='About'>Contact</a>
         </div>
     )
 }

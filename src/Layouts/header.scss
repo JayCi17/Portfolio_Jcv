@@ -1,0 +1,20 @@
+.header-video{
+    filter: grayscale(1);
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 500;
+    opacity:0.1;
+    width:100%;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        z-index: 1000;
+        border-radius: 20px;
+        filter: drop-shadow(2rem 2rem 5rem black);
+    }
+}

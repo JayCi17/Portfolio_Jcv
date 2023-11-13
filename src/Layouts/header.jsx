@@ -1,7 +1,9 @@
+import React from 'react'
 import Anim from '../Media/anim.mp4'
+import SplitHeader from './splitHeader'
 
 
-function Header(){
+function Header(){ 
     return(
     <div  id="header" className="header-container">
         <div className="row-contain">
@@ -13,7 +15,9 @@ function Header(){
         <div className='presentation-container'>
             <div className='presentation'>
                 <img src="https://i.goopics.net/q1o7xr.jpg" alt="Developpeur" className="developpeur"/>
-                <h1 id='Portfolio-title'>Jean-Charles VALENTIN</h1>
+                <div className='portfolio-name'>
+                <SplitHeader/>
+                </div>
                 <p className="description">Développeur et Intégrateur Web</p>
             </div>
             <div id="aboutMe-container">

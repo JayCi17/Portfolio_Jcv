@@ -15,6 +15,12 @@ function Header(){
             <h1>Jean-Charles VALENTIN</h1>
             <p className="description">Développeur et Intégrateur Web</p>
         </div>
+        <div id="aboutMe-container">
+            <div className="aboutMe-description">
+                <p className="introduction">Developpeur passioné par le domaine du Web.Je conçois et réalise vos sites du cahier des charges à la mise en ligne.</p>
+                <p className="presentation">Je maitrise de nombreux langage qui me permettront de rendre votre site fiable et fluide afin d'offrir la meilleure experience possible à vos utilisateurs</p>
+            </div>
+        </div>
     </div>
     )
 }

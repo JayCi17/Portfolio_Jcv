@@ -18,3 +18,9 @@
         filter: drop-shadow(2rem 2rem 5rem black);
     }
 }
+
+.aboutMe-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

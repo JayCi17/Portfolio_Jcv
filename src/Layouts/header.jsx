@@ -1,9 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react'
 import Anim from '../Media/anim.mp4'
 import SplitHeader from './splitHeader'
 
 
 function Header(){ 
+    useEffect(()=>{
+        document.getElementById('aboutMe-container').classList.add('fall-and-bounce');
+    },[])
     return(
     <div  id="header" className="header-container">
         <div className="row-contain">

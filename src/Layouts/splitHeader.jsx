@@ -24,7 +24,7 @@ function SplitHeader() {
       const tl = gsap.timeline({
         repeat: 0,
         repeatDelay: 0.65,
-        defaults: { duration: 0.35, ease: 'power2.out' }
+        defaults: { duration: 0.15, ease: 'power2.out' }
       });
 
       charElements.forEach((char, index) => {

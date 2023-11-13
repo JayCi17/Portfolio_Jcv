@@ -13,3 +13,28 @@
   display: inline-block;
   opacity: 0;
 }
+
+
+.fall-and-bounce {
+  animation: fallAndBounce 1.5s ease;
+}
+
+@keyframes fallAndBounce {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  40% {
+    transform: translateY(70px);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  80%{
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

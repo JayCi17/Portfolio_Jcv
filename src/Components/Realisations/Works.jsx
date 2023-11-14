@@ -1,7 +1,7 @@
 function Works(){
     return(
         <section id="realisations">
-            <div className="work-title">
+            <div className="section-title">
                 <h2>Mes Réalisations</h2>
             </div>
             <div className="work-card">

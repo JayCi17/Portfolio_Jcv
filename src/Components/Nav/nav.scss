@@ -1,6 +1,9 @@
 .nav {
     position:sticky;
+    box-sizing: border-box;
     top:0;
+    left:0;
+    right:0;
     background:$text-color2;
     width:100%;
     display: flex;

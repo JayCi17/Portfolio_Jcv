@@ -7,6 +7,11 @@ function Works(){
             <div className="work-card">
                 <article className="work-article">
                     <img src="https://i.goopics.net/go3t9n.png" alt="visuel du projet"/>
+                    <div className="overlay">
+                        <div className="Cliquez-container">
+                            <a href="" className="Cliquez">Cliquez ici</a>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>

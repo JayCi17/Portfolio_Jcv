@@ -1,0 +1,44 @@
+@keyframes tipsy {
+    from{
+      transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    to{
+      transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+  }
+ 
+  .work-title{
+
+  h2:before,
+  h2:after {
+    content: '';
+    padding: 1.2em 0.9em;
+    position: absolute;
+    left: 50%;
+    width: 5%;
+    /*top: 50%;*/
+    display: block;
+    border: 15px solid $title-color;
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    animation: 10s infinite alternate ease-in-out tipsy;
+  }
+  
+  h2:before {
+    border-color: $text-color $text-color rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    z-index: -1;
+  }
+  
+  h2:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) $text-color $text-color;
+    box-shadow: 25px 25px 25px rgba(245, 245,245, 0.3);
+    z-index: -1;
+  }
+}
+
+@media only screen and (max-width:900px){
+    .work-title{
+    h2:after,h2:before{
+        display: none;
+    }
+}
+}

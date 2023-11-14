@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
-import Anim from '../Media/anim.mp4'
-import SplitHeader from './splitHeader'
+import Anim from "../../Media/anim.mp4"
+import SplitHeader from '../../Components/animation/splitHeader'
 
 
 function Header(){ 

@@ -1,12 +1,12 @@
 .nav {
     position:sticky;
     top:0;
-    background:whitesmoke;
+    background:$text-color2;
     width:100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 90%;
+    font-size: 3vh;
     font-family: "Montserrat";
     font-weight: bold;
     z-index: 1000;
@@ -17,7 +17,7 @@
     display: flex;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    color: $title-color;
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
     &:hover{

@@ -36,16 +36,30 @@ article{
         width:45%;
     }
 }
+@media screen and (max-width:900px){
+    article{
+        img{
+            width:80vw;
+        }
+    }
+}
 
 .overlay{
     position: absolute;
     top:40%;
-    background: $text-color2;
-    padding:1em;
-    border-radius: 2vh;
+    .Cliquez{
+        background: $text-color2;
+        padding:1em;
+        border-radius: 2vh;
+    }
     a{
         text-decoration: none;
         color:$title-color;
+    }
+}
+@media screen and (max-width:900px){
+    .overlay{
+        top:20%;
     }
 }
 
@@ -56,7 +70,10 @@ article{
     justify-content: center;
     font-family: 'Bebas neue';
     color: whitesmoke;
-    padding-bottom: 2vw;;
+    padding-bottom: 2vw;
+    @media screen and (max-width:900px){
+        width:inherit;
+    }
     h3{
         letter-spacing: 2px;
         text-align: center;

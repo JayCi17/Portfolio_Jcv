@@ -3,6 +3,9 @@
     height:82vh;
     margin-top: 5rem;
     overflow-y: hidden;
+    @media screen and (max-width:900px){
+        height:inherit;
+    }
 }
 
 
@@ -11,7 +14,6 @@
     position: absolute;
     top: 0;
     left:0;
-    z-index: 500;
     opacity:0.25;
     width:100%;
 }
@@ -54,4 +56,33 @@
     align-items: center;
     color:$title-color2;
     @include title-third;
+}
+
+.img-langage-container{
+    margin-top:4em;
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    @media screen and (max-width:900px){
+        margin-top: 1em;;
+    }
+    img{
+        width:4em;
+        @media screen and (max-width:900px){
+            width:1.5em;
+        }
+    }
+    .lgo-html{
+        width:6em;
+        @media screen and (max-width:900px){
+            width:3em;
+        }
+    }
+    .lgo-react{
+        width:6em;
+        @media screen and (max-width:900px){
+            width:3em;
+        }
+    }
 }

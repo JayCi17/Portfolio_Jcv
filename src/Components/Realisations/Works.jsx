@@ -6,15 +6,15 @@ function Works(){
             </div>
             <div className="work-card">
                 <article className="work-article">
-                    <img src="https://i.goopics.net/go3t9n.png" alt="visuel du projet"/>
+                    <img className="work-picture" src="https://i.goopics.net/go3t9n.png" alt="visuel du projet"/>
                     <div className="overlay">
                         <div className="Cliquez-container">
-                            <a href="" className="Cliquez">Cliquez ici</a>
+                            <a href="https://kasa-immobilier-jcv.netlify.app/" className="Cliquez">Cliquez ici</a>
                         </div>
                     </div>
                     <div className="competences-problemes">
                         <div className="competences">
-                            <h3>Compètences acquises</h3>
+                            <h3>Compétences acquises</h3>
                             <ul>
                                 <li>React</li>
                                 <li>Html/Css</li>
@@ -22,7 +22,7 @@ function Works(){
                             </ul>
                         </div>
                         <div className="problemes">
-                            <h3>Problèmatique résolue</h3>
+                            <h3>Problématiques résolues</h3>
                             <ul>
                                 <li>Importation incorrecte de composants</li>
                                 <li>Erreur de syntaxe</li>
@@ -31,7 +31,7 @@ function Works(){
                     </div>
                 </article>
                 <article className="work-article">
-                    <img src="https://i.goopics.net/nhox4y.png" alt="visuel du projet"/>
+                    <img className="work-picture" src="https://i.goopics.net/nhox4y.png" alt="visuel du projet"/>
                     <div className="overlay">
                         <div className="Cliquez-container">
                             <a href="https://jayci17.github.io/NinaCarducci/" className="Cliquez">Cliquez ici</a>
@@ -39,7 +39,7 @@ function Works(){
                     </div>
                     <div className="competences-problemes">
                         <div className="competences">
-                            <h3>Compètences acquises</h3>
+                            <h3>Compétences acquises</h3>
                             <ul>
                                 <li>Seo</li>
                                 <li>Accessibilité</li>
@@ -48,7 +48,7 @@ function Works(){
                             </ul>
                         </div>
                         <div className="problemes">
-                            <h3>Problèmatique résolue</h3>
+                            <h3>Problématiques résolues</h3>
                             <ul>
                                 <li>Amélioration de la performance</li>
                                 <li>Optimisation du referencement</li>
@@ -58,7 +58,7 @@ function Works(){
                     </div>
                 </article>
                 <article className="work-article">
-                    <img src="https://i.goopics.net/ckghmr.png" alt="visuel du projet"/>
+                    <img className="work-picture" src="https://i.goopics.net/ckghmr.png" alt="visuel du projet"/>
                     <div className="overlay">
                         <div className="Cliquez-container">
                             <a href="https://jayci17.github.io/Projet_4/" className="Cliquez">Cliquez ici</a>
@@ -66,7 +66,7 @@ function Works(){
                     </div>
                     <div className="competences-problemes">
                         <div className="competences">
-                            <h3>Compètences acquises</h3>
+                            <h3>Compétences acquises</h3>
                             <ul>
                                 <li>Responsive</li>
                                 <li>Animations Css</li>
@@ -74,7 +74,7 @@ function Works(){
                             </ul>
                         </div>
                         <div className="problemes">
-                            <h3>Problèmatique résolue</h3>
+                            <h3>Problématiques résolues</h3>
                             <ul>
                                 <li>Developper en mobile-first</li>
                                 <li>Respect de la charte graphique</li>
@@ -84,15 +84,12 @@ function Works(){
                     </div>
                 </article>
                 <article className="work-article">
-                    <img src="https://i.goopics.net/5htuqh.png" alt="visuel du projet"/>
+                    <img className="work-picture" src="https://i.goopics.net/5htuqh.png" alt="visuel du projet"/>
                     <div className="overlay">
-                        <div className="Cliquez-container">
-                            <a href="" className="Cliquez">Cliquez ici</a>
-                        </div>
                     </div>
                     <div className="competences-problemes">
                         <div className="competences">
-                            <h3>Compètences acquises</h3>
+                            <h3>Compétences acquises</h3>
                             <ul>
                                 <li>Responsive</li>
                                 <li>React</li>
@@ -103,7 +100,7 @@ function Works(){
                             </ul>
                         </div>
                         <div className="problemes">
-                            <h3>Problèmatique résolue</h3>
+                            <h3>Problématiques résolues</h3>
                             <ul>
                                 <li>Gérer une base de données</li>
                                 <li>Etablissement des routes</li>
@@ -112,15 +109,12 @@ function Works(){
                     </div>
                 </article>
                 <article className="work-article">
-                    <img src="https://i.goopics.net/t9gtxl.png" alt="visuel du projet"/>
+                    <img className="work-picture" src="https://i.goopics.net/t9gtxl.png" alt="visuel du projet"/>
                     <div className="overlay">
-                        <div className="Cliquez-container">
-                            <a href="" className="Cliquez">Cliquez ici</a>
-                        </div>
                     </div>
                     <div className="competences-problemes">
                         <div className="competences">
-                            <h3>Compètences acquises</h3>
+                            <h3>Compétences acquises</h3>
                             <ul>
                                 <li>Responsive</li>
                                 <li>React</li>
@@ -129,7 +123,7 @@ function Works(){
                             </ul>
                         </div>
                         <div className="problemes">
-                            <h3>Problèmatique résolue</h3>
+                            <h3>Problématiques résolues</h3>
                             <ul>
                                 <li>Trouver les anomalies</li>
                             </ul>

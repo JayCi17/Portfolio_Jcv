@@ -17,7 +17,7 @@ const ContactForm = () => {
 
     try {
       // Utilisez l'URL de votre formulaire Formspree
-      const response = await axios.post('codes.jcv@gmail.com', formData);
+      const response = await axios.post('https://formspree.io/f/xbjvegza', formData);
 
       if (response.status === 200) {
         alert('Message envoyé avec succès!');

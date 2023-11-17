@@ -1,6 +1,7 @@
 import Header from './Layouts/header/header';
 import Nav from './Components/Nav/Nav';
 import Home from './Pages/Home';
+import Footer from './Layouts/footer/footer';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <Header/>
     <Nav/>
     <Home/>
+    <Footer/>
     </>
   );
 }

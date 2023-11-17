@@ -26,8 +26,17 @@ function Header(){
             </div>
             <div id="aboutMe-container">
                 <div className="aboutMe-description">
-                    <p className="introduction">Developpeur passioné par le domaine du Web.Je conçois et réalise vos sites du cahier des charges à la mise en ligne.</p>
-                    <p className="presentation">Je maitrise de nombreux langage qui me permettront de rendre votre site fiable et fluide afin d'offrir la meilleure experience possible à vos utilisateurs</p>
+                    <p className="introduction">Developpeur passionné par le domaine du Web. Je conçois et réalise vos sites en partant du cahier des charges jusqu'à la mise en ligne.</p>
+                    <p className="presentation">Je maitrise de nombreux langages qui me permettront de rendre votre site fiable et fluide afin d'offrir la meilleure experience possible à vos utilisateurs</p>
+                    <div className='img-langage-container'>
+                        <img src="https://i.goopics.net/k320va.png" alt="logo-langage" className='lgo-html'/>
+                        <img src="https://i.goopics.net/6rqqql.png" alt="logo-css"/>
+                        <img src="https://i.goopics.net/g34mea.png" alt="logo-javascript"/>
+                        <img src="https://i.goopics.net/d9werv.png" alt="logo-react" className='lgo-react'/>
+                        <img src="https://i.goopics.net/th9ifp.png" alt="logo-redux"/>
+                        <img src="https://i.goopics.net/lnm5c9.png" alt="logo-mogoDb"/>
+                        <img src="https://i.goopics.net/evmlfh.png" alt="logo-greenIt"/>
+                    </div>
                 </div>
             </div>
         </div>
